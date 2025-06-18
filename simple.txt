@@ -1,0 +1,2 @@
+Hello Intern!
+Welcome to Java File Handling.
