@@ -1,51 +1,62 @@
-# File-Utility-Handling
-
-## 📌 Description
-
-A simple Java program to demonstrate basic **file handling operations**:
-- Reading a text file
-- Writing to a text file
-- Modifying contents of a text file
-
-This was created as part of an internship task.
+This project is a simple Java program that demonstrates how to **read**, **write**, and **modify** text files using file handling techniques in Java.
 
 ---
 
-## 🛠️ How to Run
+## 🛠 Features
 
-Make sure you have Java installed. Then follow these steps:
-
-1. Open a terminal or command prompt
-2. Navigate to the project folder
-3. Compile the code:
-4. Run the program:
-
-
+- ✅ Read content from an existing text file
+- ✅ Write user input to a new file
+- ✅ Append new text to an existing file
 
 ---
 
-## 📂 What It Does
+## 📁 File Structure
 
-The program will:
-
-1. Create a file named `sample.txt`
-2. Write this text into it:
-	Hello World!
-	Welcome to Java File Handling.
-
-3. Modify the word **"World"** to **"Intern"**
-4. Print the file contents before and after modification
+```
+task1/
+├── FileUtility.java   # Main Java program for file handling
+├── input.txt          # (Optional) Input file to test reading
+```
 
 ---
 
-## ✅ Output Example
-STEP 4Writing to file: sample.txt
-Write successful.
-Reading file: sample.txt
-Hello World!
-Welcome to Java File Handling.
-Modifying file: sample.txt
-Modification successful.
-Reading file: sample.txt
-Hello Intern!
-Welcome to Java File Handling.
+## ▶️ How to Run
+
+### 1️⃣ Compile the file
+```bash
+javac FileUtility.java
+```
+
+### 2️⃣ Run the program
+```bash
+java FileUtility
+```
+
+---
+
+## 📤 Sample Output
+
+```
+Enter the filename to read: input.txt
+File contents:
+Hello, World!
+
+Enter text to write to new file: This is a test.
+Text written to output.txt
+
+Enter text to append to file: Appending this line.
+Text appended to output.txt
+```
+
+---
+
+## 🧑‍💻 Author
+
+Intern: Vishakha Kandrikar
+Task: Task 1 – Java Programming Internship
+
+---
+
+## 📜 License
+
+This project is for educational purposes as part of a Java internship.
